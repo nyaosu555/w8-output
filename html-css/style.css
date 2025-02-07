@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+共通スタイル
+*/
+
+ul {
+    list-style: none;
+}
+
+/* container */
+.container {
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 15px;
+}
+
+.flex-box .flex-item {
+    height: 50px;
+    background-color: #f00;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.flex-box .flex-item.flex-col-4 {
+    width: calc(25% - 15px);
+}
+
+.flex-box .flex-item.flex-col-2 {
+    width: calc(50% - 15px);
+}
+
+.flex-box .flex-item.flex-col-6 {
+    width: calc(16.6% - 15px);
+}
