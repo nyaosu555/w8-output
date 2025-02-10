@@ -2,8 +2,6 @@
     const signInButton = document.getElementById('signin-button');
     const emailInput = document.getElementById('email');
     const passwordInput = document.getElementById('password');
-    console.log(emailInput);
-    console.log(passwordInput);
     
     if(localStorage.getItem('email') && localStorage.getItem('password')) {
         emailInput.value = localStorage.getItem('email');
