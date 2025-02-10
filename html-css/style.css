@@ -59,14 +59,3 @@ section h2 {
 .flex-box .flex-item.flex-col-6 {
     width: calc(16.6% - 15px);
 }
-
-.signin-section {
-    max-width: 500px;
-    margin: 120px auto 0;
-    padding: 60px;
-    background-color: rgb(25, 24, 24);
-}
-
-.signin-section h2 {
-    color: #fff;
-}
